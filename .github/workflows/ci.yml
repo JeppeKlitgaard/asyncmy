@@ -4,6 +4,7 @@ on:
     branches-ignore:
       - main
   pull_request:
+  workflow_dispatch:
 jobs:
   ci_mysql:
     runs-on: ubuntu-latest
